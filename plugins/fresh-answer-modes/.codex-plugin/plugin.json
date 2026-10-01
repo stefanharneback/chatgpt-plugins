@@ -1,0 +1,34 @@
+{
+  "name": "fresh-answer-modes",
+  "version": "1.0.1",
+  "description": "Current, sourced answers in full, concise, and read-only modes.",
+  "author": {
+    "name": "STEFAN SIVERT HARNEBÄCK"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Fresh Answer Modes",
+    "shortDescription": "Current, sourced answers",
+    "longDescription": "Fresh Answer Modes guides ChatGPT and Codex to check current evidence before answering. Choose a full answer, a concise answer, or a concise read-only answer. Each mode cites direct sources for material claims and states when current information cannot be verified. Live-source availability depends on the tools available in each chat. Read-only mode inspects information without changing files or external records.",
+    "developerName": "STEFAN SIVERT HARNEBÄCK",
+    "category": "Productivity",
+    "capabilities": [
+      "Check current sources",
+      "Give concise answers",
+      "Analyze without making changes"
+    ],
+    "defaultPrompt": [
+      "What changed in the latest Python release? Cite official sources.",
+      "Briefly summarize the latest Artemis update with direct sources.",
+      "Check the current facts about a topic, answer briefly, and make no changes."
+    ],
+    "brandColor": "#1E3A8A",
+    "composerIcon": "./assets/fresh-answer.svg",
+    "logo": "./assets/fresh-answer.svg",
+    "websiteURL": "https://stefanharneback.github.io/chatgpt-plugins/",
+    "supportURL": "https://github.com/stefanharneback/chatgpt-plugins/issues",
+    "privacyPolicyURL": "https://stefanharneback.github.io/chatgpt-plugins/fresh-answer-modes/privacy.html"
+  },
+  "homepage": "https://stefanharneback.github.io/chatgpt-plugins/",
+  "repository": "https://github.com/stefanharneback/chatgpt-plugins"
+}
