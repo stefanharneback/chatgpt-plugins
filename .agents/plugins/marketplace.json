@@ -1,0 +1,20 @@
+{
+  "name": "stefanharneback-plugins",
+  "interface": {
+    "displayName": "Stefan's plugins"
+  },
+  "plugins": [
+    {
+      "name": "fresh-answer-modes",
+      "source": {
+        "source": "local",
+        "path": "./plugins/fresh-answer-modes"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
